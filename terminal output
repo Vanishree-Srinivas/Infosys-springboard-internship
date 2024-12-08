@@ -1,0 +1,19 @@
+PS C:\Users\Vanishree S\OneDrive\Desktop\MarketTrendsAnalysis> python -m venv venv
+PS C:\Users\Vanishree S\OneDrive\Desktop\MarketTrendsAnalysis> venv\Scripts\activate
+(venv) PS C:\Users\Vanishree S\OneDrive\Desktop\MarketTrendsAnalysis> pip install pandas numpy matplotlib seaborn scikit-learn streamlit fastapi uvicorn pytest
+>>
+(venv) PS C:\Users\Vanishree S\OneDrive\Desktop\MarketTrendsAnalysis> streamlit run frontend/interface.py
+>>
+ You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.96.69:8501
+
+  PS C:\Users\Vanishree S\OneDrive\Desktop\MarketTrendsAnalysis> uvicorn backend.main:app --reload
+>> 
+INFO:     Will watch for changes in these directories: ['C:\\Users\\Vanishree S\\OneDrive\\Desktop\\MarketTrendsAnalysis']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [26980] using StatReload
+INFO:     Started server process [18960]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
