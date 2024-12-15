@@ -1,0 +1,33 @@
+MODULE 2 : MARKET DATA MANAGEMENT
+
+PS C:\Users\Vanishree S\OneDrive\Desktop\MarketDataManagement> python -m venv venv
+PS C:\Users\Vanishree S\OneDrive\Desktop\MarketDataManagement> .\venv\Scripts\activate
+
+(venv) PS C:\Users\Vanishree S\OneDrive\Desktop\MarketDataManagement> pip install pandas matplotlib streamlit fastapi uvicorn
+>>
+
+(venv) PS C:\Users\Vanishree S\OneDrive\Desktop\MarketDataManagement> pip install pytest
+
+(venv) PS C:\Users\Vanishree S\OneDrive\Desktop\MarketDataManagement> pip show httpx
+>>
+
+(venv) PS C:\Users\Vanishree S\OneDrive\Desktop\MarketDataManagement> pytest
+>>
+                                 
+(venv) PS C:\Users\Vanishree S\OneDrive\Desktop\MarketDataManagement> pip install black
+>>
+
+(venv) PS C:\Users\Vanishree S\OneDrive\Desktop\MarketDataManagement> pip install plotly seaborn
+
+(venv) PS C:\Users\Vanishree S\OneDrive\Desktop\MarketDataManagement> uvicorn app:app --reload
+>>
+INFO:     Will watch for changes in these directories: ['C:\\Users\\Vanishree S\\OneDrive\\Desktop\\MarketDataManagement']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+
+
+(venv) PS C:\Users\Vanishree S\OneDrive\Desktop\MarketDataManagement> streamlit run dashboard.py 
+  You can now view your Streamlit app in your browser.
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.252.69:8501
+
+pip install streamlit pandas matplotlib seaborn plotly
